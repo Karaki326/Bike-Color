@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    background-image: url(TG5QM3HYAJFXLG4VUON7QTCGVU.jpg);
+    background-size: 70%;
+    background-position:left;
+    padding: 20px 10%;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .honda{
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: -10%;
+    margin-right: 20%;
+}
+
+nav .logo{
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-left: 75%;
+    margin-top: -5%;
+}
+.content{
+    margin-top: 10%;
+    background-position: left;
+    margin-left: 100%;
+    margin-top: -5%;
+}
+.content h2{
+    color: red;
+    font-size: 34px;
+    background-position: left;
+}
+.content h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -20px;
+}
+.content p{
+    display:inline-block;
+    width: 400px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+    padding-left: 50%;
+    margin: 0;
+
+}
+.content h3{
+    margin-top: 30px;
+    font-weight:600 ;
+    font-size: 24px;
+    padding-left: 50%;
+    width: 300px;
+}
+.color-select div{
+  background: #333;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+  
+}
+.color-select {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-top: 30px;
+    width: 200px; 
+    height: 60px;
+    background: #fff; 
+  }
+  
+
+.color-select #yellow{
+    background: yellow;
+}
+.color-select #red{
+    background: red;
+}
+.color-select #black{
+    background: black;
+}

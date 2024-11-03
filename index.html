@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Honda</title>
+</head>
+<body>
+    <div class="container" id="bike">
+  <nav>
+    <a href="#" class="honda">Test Drive</a>
+    <img class="logo" src="images.jpg">
+  </nav>
+  <div class="content">
+    <h2>HONDA</h2>
+    <h1>CB300R</h1>
+    <p>With numerous professional reviews to back this up, you can rest easy knowing it's a great pick for a first bike. It's not all perfect, however, and you run the risk of potentially outgrowing this bike and yearning for something bigger and faster.</p>
+    <h3>Choose your color</h3>
+    <div class="color-select">
+        <div id="yellow"></div>
+        <div id="red"></div>
+        <div id="black"></div>
+    </div>
+  </div>
+    </div>
+    <script>
+      let yellowhonda = document.getElementById("yellow");
+      let redhonda = document.getElementById("red");
+      let blackhonda = document.getElementById("black");
+      let bike = document.getElementById("bike");
+
+      yellowhonda.onclick = function(){
+       bike.style.backgroundImage = "url(6PRRWBMFJVFZ5HLD44FIP3RNXU.jpg)"
+      }
+
+      redhonda.onclick = function(){
+       bike.style.backgroundImage = "url(cb300rimage.png)"
+      }
+
+      blackhonda.onclick = function(){
+       bike.style.backgroundImage = "url(TG5QM3HYAJFXLG4VUON7QTCGVU.jpg)"
+      }
+    </script>
+    
+</body>
+</html>
